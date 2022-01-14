@@ -11,4 +11,4 @@ print("List_without_4thElement:", color)
 
 #(B)
 color[3:5]=['Purple']
-print("List_Black,Pink->Purple", color)
+print("List_Black,Pink->Purple:", color)
