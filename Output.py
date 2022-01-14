@@ -26,6 +26,6 @@ FinalMarks: [87, 95, 76, 64, 71]
 
 = RESTART: C:\Users\GUNJAN\Desktop\PEC\Classes\Python Assignment1\Assignment_Question5.py
 ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
-List without black ['Red', 'Green', 'White', 'Pink', 'Yellow']
-List_Black,Pink->Purple ['Red', 'Green', 'White', 'Purple']
+List_without_black: ['Red', 'Green', 'White', 'Pink', 'Yellow']
+List_Black,Pink->Purple: ['Red', 'Green', 'White', 'Purple']
 
