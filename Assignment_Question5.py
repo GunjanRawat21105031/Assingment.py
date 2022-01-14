@@ -1,14 +1,14 @@
 #Question-5
 
-List=['Red','Green','White','Black','Pink','Yellow']
+color=['Red','Green','White','Black','Pink','Yellow']
 
-print(List)
+print(color)
 
 #(A)
-List.remove('Black')
-print("List without black", List)
+color.pop(3)
+print("List_without_4thElement:", color)
 
 
 #(B)
-List[3:5]=['Purple']
-print("List_Black,Pink->Purple", List)
+color[3:5]=['Purple']
+print("List_Black,Pink->Purple", color)
