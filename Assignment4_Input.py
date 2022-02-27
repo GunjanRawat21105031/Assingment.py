@@ -56,8 +56,8 @@ m = [Q, R]
 
 
 def division():
-    q, r = divmod(a, b)
-    print(f"Questiont:{q}\nRemainder:{r}")
+    Q, R = divmod(a, b)
+    print(f"Questiont:{Q}\nRemainder:{R}")
 
 division()
 
