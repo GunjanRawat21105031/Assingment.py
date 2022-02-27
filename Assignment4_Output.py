@@ -30,20 +30,24 @@ Using loops:
 
 
 = RESTART: C:\Users\GUNJAN\Desktop\PEC\Classes\Assignments\Python\Python Assignment 4\Question3.py
-Enter the first number: 6
-Enter the first number: 53
-Remainder= 6
-Quotient= 0
-One value is zero
-{10}
-{10, 11}
-{10, 11, 5}
-{10, 11, 12, 5}
-{5, 6, 10, 11, 12}
-{5, 6, 10, 11, 12}
-Immutable set:  frozenset({5, 6, 10, 11, 12})
-Largest value in the set= 12
-Hash value:  12
+Enter the first number: 71
+Enter the first number: 12
+Questiont:5 
+Remainder:11
+a)
+True
+b)
+All the values are non zero
+c)
+After adding 4,5,6 :  [5, 11, 4, 5, 6]
+Values greater than 4 are :  [5, 11, 5, 6]
+d)
+{11, 4, 5, 6}
+e)
+Immutable set :  frozenset({11, 4, 5, 6})
+f)
+-8230948304247186955
+
 
 = RESTART: C:\Users\GUNJAN\Desktop\PEC\Classes\Assignments\Python\Python Assignment 4\Question4.py
 Object created
