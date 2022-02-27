@@ -43,40 +43,50 @@ for line in range(1, n+1):
     print()
 
 
-#Question-3
-Num1=int(input("Enter the first number: "))
-Num2=int(input("Enter the first number: "))
-Reminder=Num1%Num2
-Quotient=Num1//Num2
-print("Remainder=", Reminder)
-print("Quotient=",Quotient)
-if(Reminder!=0):
-    if (Quotient!=0):
-        print("Both values are non zero")
-    else:
-        print("One value is zero")
-else:
-    if (Quotient!=0):
-        print("One value is zero")
-    else:
-        print("Both values are zero")
-set1=set()
-for i in range (4,7):
-    f=Reminder+i
-    g=Quotient+i
-    if(f>4):
-        set1.add(f)
-        print(set1)
-    if(g>4):
-        set1.add(g)
-        print(set1)
+# Question3
+a = int(input("Enter the first number: "))
+b = int(input("Enter the first number: "))
 
-print(set1)
-set2=frozenset(set1)
-print("Immutable set: ", frozenset(set1))
-print("Largest value in the set=", max(set2))
-k=max(set2)
-print("Hash value: ", hash(k))
+# ensuring that denominator is not zero
+while b == 0:
+    b = int(input("Denominator cannot be zero. Please enter a non zero number : "))
+
+Q, R = divmod(a, b)
+m = [Q, R]
+
+
+def division():
+    q, r = divmod(a, b)
+    print(f"Questiont:{q}\nRemainder:{r}")
+
+division()
+
+#a)
+print(callable(division))
+
+#b)
+if all(divmod(a, b)):
+    print('All the values are non zero')
+else:
+    print('All the values are not non zero')
+
+#c)
+m.extend([4, 5, 6])
+print("After adding 4,5,6 : ", m)
+filtered = filter(lambda n: n > 4, m)
+print("Values greater than 4 are : ", list(filtered))
+
+#d)
+s = set(m)
+print(s)
+
+#e)
+f_s = frozenset(s)
+print("Immutable set : ", f_s)
+
+#f)
+m = max(f_s)
+print(hash(str(m)))
 
 #Question-4
 class Student:
