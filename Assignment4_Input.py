@@ -42,7 +42,6 @@ for line in range(1, n+1):
         x = x * (line - i) // i
     print()
 
-
 # Question3
 a = int(input("Enter the first number: "))
 b = int(input("Enter the first number: "))
@@ -61,30 +60,36 @@ def division():
 
 division()
 
-#a)
+
+print('a)')
 print(callable(division))
 
-#b)
+
+print('b)')
 if all(divmod(a, b)):
     print('All the values are non zero')
 else:
     print('All the values are not non zero')
 
-#c)
+
+print('c)')
 m.extend([4, 5, 6])
 print("After adding 4,5,6 : ", m)
 filtered = filter(lambda n: n > 4, m)
 print("Values greater than 4 are : ", list(filtered))
 
-#d)
+
+print('d)')
 s = set(m)
 print(s)
 
-#e)
+
+print('e)')
 f_s = frozenset(s)
 print("Immutable set : ", f_s)
 
-#f)
+
+print('f)')
 m = max(f_s)
 print(hash(str(m)))
 
