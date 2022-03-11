@@ -188,7 +188,7 @@ number=int(input("Total elements of Fibonacci sequence that you want(must be gre
 
 #Entering first and second terms
 a_1=1
-a_2=0
+a_2=1
 n=0
 #First Sum
 sum=a_1+a_2
