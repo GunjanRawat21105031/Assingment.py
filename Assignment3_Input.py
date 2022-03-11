@@ -195,14 +195,14 @@ sum=a_1+a_2
 
 #intial terms
 print(f"Fibonnaci sequence with {number} terms")
-print(a_2)
 print(a_1)
+print(a_2)
 
 #Printing the fibonnaci terms
 while n<number-2:
     a_n=a_2+a_1
-    a_2=a_1
-    a_1=a_n
+    a_1=a_2
+    a_2=a_n
     print(a_n)
     n=n+1
     sum+=a_n
